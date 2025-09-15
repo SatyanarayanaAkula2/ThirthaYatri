@@ -3,10 +3,10 @@ import { Bell } from "lucide-react";
 
  export function Navbar(){
     return(
-        <div className='Navbar flex flex-row items-center justify-between p-10 p-5 bg-orange-100'>
+        <div className='Navbar flex flex-row items-center justify-between p-10 p-5 bg-orange-100 sticky'>
             <div className="nav-left">
                 <img/>
-                <h1 className=" text-2xl font-semibold text-orange-500">Thirtha<span className="text-gray-500">Yatra</span></h1>
+                <h1 className=" text-2xl font-semibold text-orange-500">Thirtha<span className="text-gray-500">Yatri</span></h1>
             </div>
             <div className="nav-middle ">
                  <ul className='flex flex-row gap-10 '>
