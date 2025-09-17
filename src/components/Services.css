@@ -1,0 +1,50 @@
+.services-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.services-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ff6600;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 10px;
+}
+
+.service-box {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: background 0.3s;
+}
+
+.service-box:hover .overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.know-more-link {
+  margin-top: 10px;
+  color: #ffcc00;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
