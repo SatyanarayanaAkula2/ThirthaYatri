@@ -12,7 +12,7 @@ import { Bell } from "lucide-react";
                  <ul className='flex flex-row gap-10 '>
                    <li className='px-3 py-2 rounded hover:bg-orange-200 '><a href=''>Home</a></li>
                    <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>Temples</a></li>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>services</a></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href="">Services</a></li>
                    <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>Contact</a></li>
                    <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>About</a></li>
                 </ul>
