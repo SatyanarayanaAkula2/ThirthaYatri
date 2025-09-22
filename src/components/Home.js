@@ -1,7 +1,8 @@
 import React from "react";
-
+import Services from "./Services";
  function Home(){
     return(
+        <div>
         <div className="Hero mx-10 my-20 flex flex-row gap-10  ">
             <div className="Hero_left ">
                 <div className="text-3xl pl-[10%] font-semibold">Travel Aggregator</div>
@@ -18,6 +19,8 @@ import React from "react";
             <div className="Hero_right">
                 {/* <img className="h-[400px] w-[400px]"src="/hero_image.png"/>
             */}</div>
+        </div>
+        <Services />
         </div>
     )
 }
