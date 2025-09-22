@@ -6,17 +6,28 @@ module.exports = {
   theme: {
     extend: {
         keyframes:{
-           effect1:{
-                '0%':{
-                    transform:'translateY(0px)'
-                },
-                '100%':{
-                    transform:'translateY(20px)'
-                }
+           fallin:{
+              '0%':{
+                 transform:"translateZ(600px) scale(2)",
+                 opacity:"0", 
+              },
+              "100%":{
+                transform:"translateZ(0) scale(1)",
+                opacity:'1',
+              },
+           },
+           enlarge:{
+            '0%':{
+                transform:"scale(1)",
+            },
+            '100%':{
+                transform:"scale(1.05)",
+            }
            },
         },
         animation:{
-            effect1:'effect1 2s ease-in-out forwards'
+            fallin:"fallin 1s ease-out forwards",
+            enlarge:"enlarge 0.5s ease-out forwards"
         },
     },
   },
