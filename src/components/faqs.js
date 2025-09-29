@@ -37,7 +37,7 @@ function Faqs(){
     ]
 
     const[accordions,setaccordions]=useState({});
-    const[activeimage,setactiveimage]=useState(null);
+    const[activeimage,setactiveimage]=useState('./assets/hero_bg.png');
 
     const handler=(item)=>{
         setaccordions((prev)=>({...prev,[item.id]:!prev[item.id]}));

@@ -4,15 +4,21 @@ function Guide(){
     const contents=[
         {
             block1:'Click on Signin Button. ? Login with your Credentials or create a new account if your are new.',
-            block2:'Search for the Temples. ? Book the tickets from available slots.'
+            img1:'./assets/guide_login.png',
+            block2:'Search for the Temples. ? Book the tickets from available slots.',
+            img2:'./assets/hero_bg.png',
         },
         {
             block1:'Select the accommodations service. ? Filter the accommodations near the place based on price,luxury etc... ? Book the accomodation. ',
-            block2:'Select the Travel Service. ? Plan your Journey from choices displayed. ? Book your Journey.'
+            img1:'./assets/guide_acc.webp',
+            block2:'Select the Travel Service. ? Plan your Journey from choices displayed. ? Book your Journey.',
+            img2:'./assets/guide_travel.jpeg',
         },
         {
             block1:'Select the other Services. ? Choose services like Near Medical Services,etc... ? Access those on your need.',
-            block2:'Share your Feedback on your Experience. ?'
+            img1:'./assets/guide_serv.jpeg',
+            block2:'Share your Feedback on your Experience. ?',
+            img2:'./assets/guide_feedback.jpeg',
         }
     ]
     return(
@@ -38,13 +44,13 @@ function Guide(){
             </div>
             </div>
             <div className="image flex-1">
-                <img src="./assets/hero_image.png"  style={{width:'600px',height:'400px'}}/>
+                <img src={content.img1}  style={{width:'600px',height:'400px'}}/>
             </div>
         </div>
 
         <div className="step_1 flex gap-40 my-8 ">
             <div className="image flex-1">
-                <img src="./assets/hero_image.png" style={{width:'600px',height:'400px'}}/>
+                <img src={content.img2} style={{width:'600px',height:'400px'}}/>
             </div>
         <div className="content py-16 " style={{width:'500px', height:'100px'}}>
             <div className="content  p-8 shadow-md rounded-lg bg-gradient-to-r from-orange-500/30 to-white/70 hover:animate-enlarge align-content ">
