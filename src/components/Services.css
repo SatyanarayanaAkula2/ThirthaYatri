@@ -12,17 +12,20 @@
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px;
-  gap: 20px; /* Added spacing */
+  grid-template-rows: auto; /* Let rows grow naturally */
+  gap: 40px; /* increase spacing between services */
+  padding: 20px; /* add some breathing space inside the grid */
 }
 
 .service-box {
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 12px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  min-height: 300px; /* ensures consistent box height */
+  margin: 10px; /* extra spacing between each box */
 }
 
 .overlay {
