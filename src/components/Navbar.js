@@ -10,11 +10,11 @@ import { Bell } from "lucide-react";
             </div>
             <div className="nav-middle ">
                  <ul className='flex flex-row gap-10 '>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200 '><a href=''>Home</a></li>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>Temples</a></li>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href="">Services</a></li>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>Contact</a></li>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>About</a></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200 '><a href='/home'>Home</a></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href='/temples'>Temples</a></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href="/services">Services</a></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href='/contact'>Contact</a></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href='/about'>About</a></li>
                 </ul>
             </div>
                 <div className='nav-right flex flex-row gap-10'>

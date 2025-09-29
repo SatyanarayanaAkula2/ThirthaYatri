@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import { Link } from "lucide-react";
 
 const services = [
   {
@@ -7,28 +8,28 @@ const services = [
     shortDesc: "Get access to temple rituals.",
     fullDesc:
       "Get access to temple rituals, darshan booking, and spiritual guidance. Experience devotion in a seamless way, anytime, anywhere.",
-    image: "/temple.webp",
+    image: "./assets/temple.webp",
   },
   {
     name: "Accommodation Services",
     shortDesc: "Comfortable stay options.",
     fullDesc:
       "Affordable and comfortable stay options near pilgrimage sites. Clean, safe, and close to major temples for your convenience.",
-    image: "/accommodation-services.jpg",
+    image: "./assets/accommodation-services.jpg",
   },
   {
     name: "Medical Services",
     shortDesc: "Healthcare on the go.",
     fullDesc:
       "Emergency medical support, doctors on call, and healthcare facilities to ensure safe travel and peace of mind for all pilgrims.",
-    image: "/images.jpeg",
+    image: "./assets/images.jpeg",
   },
   {
     name: "Multi-Modal Travel Services",
     shortDesc: "Seamless travel solutions.",
     fullDesc:
       "Travel via buses, trains, and cabs with one click. Our multi-modal solutions provide affordable, hassle-free journeys for devotees.",
-    image: "/travel.jpeg",
+    image: "./assets/travel.jpeg",
   },
 ];
 
@@ -55,13 +56,6 @@ function Services() {
                   Know More
                 </Link>
               </p>
-              <p>{service.shortDesc}</p>
-              {/* <Link
-                to={`/services/${encodeURIComponent(service.name)}`}
-                className="know-more-link"
-              >
-                Know More
-              </Link> */}
             </div>
           </div>
         ))}
