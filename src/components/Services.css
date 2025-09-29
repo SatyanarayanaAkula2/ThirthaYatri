@@ -12,17 +12,20 @@
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px;
-  gap: 10px;
+  grid-template-rows: auto; /* Let rows grow naturally */
+  gap: 40px; /* increase spacing between services */
+  padding: 20px; /* add some breathing space inside the grid */
 }
 
 .service-box {
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 12px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  min-height: 300px; /* ensures consistent box height */
+  margin: 10px; /* extra spacing between each box */
 }
 
 .overlay {
@@ -41,8 +44,28 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
+.service-short {
+  font-size: 14px;
+  margin-top: 8px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.service-full {
+  font-size: 14px;
+  margin-top: 8px;
+  display: none; /* hidden by default */
+}
+
+.service-box:hover .service-short {
+  display: none; /* hide short text on hover */
+}
+
+.service-box:hover .service-full {
+  display: block; /* show full text on hover */
+}
+
 .know-more-link {
-  margin-top: 10px;
   color: #ffcc00;
   text-decoration: underline;
   font-weight: bold;
