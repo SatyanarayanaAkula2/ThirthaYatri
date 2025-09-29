@@ -5,22 +5,22 @@ const services = [
   {
     name: "Temple Services",
     shortDesc: "Get access to temple rituals, darshan booking, and guidance.",
-    image:"/temple.webp",
+    image:"./assets/temple.webp",
   },
   {
     name: "Accommodation Services",
     shortDesc: "Affordable and comfortable stay options near temples.",
-    image:"/accommodation-services.jpg",
+    image:"./assets/accommodation-services.jpg",
   },
   {
     name: "Medical Services",
     shortDesc: "Emergency medical support and healthcare facilities.",
-    image:"/images.jpeg",
+    image:"./assets/images.jpeg",
   },
   {
     name: "Multi-Modal Travel Services",
     shortDesc: "Seamless travel via buses, trains, and cabs.",
-    image:"/travel.jpeg",
+    image:"./assets/travel.jpeg",
   },
 ];
 

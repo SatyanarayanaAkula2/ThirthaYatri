@@ -38,13 +38,13 @@ function Guide(){
             </div>
             </div>
             <div className="image flex-1">
-                <img src="./hero_image.png"  style={{width:'600px',height:'400px'}}/>
+                <img src="./assets/hero_image.png"  style={{width:'600px',height:'400px'}}/>
             </div>
         </div>
 
         <div className="step_1 flex gap-40 my-8 ">
             <div className="image flex-1">
-                <img src="./hero_image.png" style={{width:'600px',height:'400px'}}/>
+                <img src="./assets/hero_image.png" style={{width:'600px',height:'400px'}}/>
             </div>
         <div className="content py-16 " style={{width:'500px', height:'100px'}}>
             <div className="content  p-8 shadow-md rounded-lg bg-gradient-to-r from-orange-500/30 to-white/70 hover:animate-enlarge align-content ">

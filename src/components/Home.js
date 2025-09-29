@@ -2,7 +2,7 @@ import React from "react";
 import Services from "./Services";
  function Home(){
     return(
-       <div className="Hero px-10 py-20 animate-fallin" style={{ backgroundImage: "url('/hero_bg.png')",
+       <div className="Hero px-10 py-20 animate-fallin" style={{ backgroundImage: "url('./assets/hero_bg.png')",
        backgroundRepeat:'no-repeat',
        backgroundSize:'cover',}}> 
 
