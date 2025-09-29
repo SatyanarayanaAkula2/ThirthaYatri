@@ -1,6 +1,5 @@
 import React from "react";
 import { Bell } from "lucide-react";
-import {Link} from "react-router-dom";
 
  export function Navbar(){
     return(
@@ -13,7 +12,7 @@ import {Link} from "react-router-dom";
                  <ul className='flex flex-row gap-10 '>
                    <li className='px-3 py-2 rounded hover:bg-orange-200 '><a href=''>Home</a></li>
                    <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>Temples</a></li>
-                   <li className='px-3 py-2 rounded hover:bg-orange-200'><Link to="/services">Services</Link></li>
+                   <li className='px-3 py-2 rounded hover:bg-orange-200'><a href="">Services</a></li>
                    <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>Contact</a></li>
                    <li className='px-3 py-2 rounded hover:bg-orange-200'><a href=''>About</a></li>
                 </ul>

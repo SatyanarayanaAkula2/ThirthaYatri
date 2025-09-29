@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Services.css";
 
 const services = [
@@ -56,6 +55,13 @@ function Services() {
                   Know More
                 </Link>
               </p>
+              <p>{service.shortDesc}</p>
+              {/* <Link
+                to={`/services/${encodeURIComponent(service.name)}`}
+                className="know-more-link"
+              >
+                Know More
+              </Link> */}
             </div>
           </div>
         ))}
